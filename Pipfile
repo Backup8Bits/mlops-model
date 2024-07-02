@@ -1,0 +1,23 @@
+[packages]
+black = "*"
+flake8 = "*"
+ipython = "*"
+isort = "*"
+jupyterlab = "*"
+loguru = "*"
+matplotlib = "*"
+mkdocs = "*"
+notebook = "*"
+numpy = "*"
+pandas = "*"
+pip = "*"
+python-dotenv = "*"
+scikit-learn = "*"
+tqdm = "*"
+typer = "*"
+"mlops_model" ={editable = true, path = "."}
+pycaret = "*"
+ydata-profiling = "*"
+
+[requires]
+python_version = "3.11"
