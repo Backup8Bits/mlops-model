@@ -1,5 +1,7 @@
-# Data
-/data/
+# Data files to this Project
+*.parquet
+*.zip
+**/data/**/*.txt
 
 # Mac OS-specific storage files
 .DS_Store

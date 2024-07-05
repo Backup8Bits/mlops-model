@@ -18,6 +18,7 @@ typer = "*"
 "mlops_model" ={editable = true, path = "."}
 pycaret = "*"
 ydata-profiling = "*"
+requests = "*"
 
 [requires]
 python_version = "3.11"
