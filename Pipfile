@@ -16,9 +16,13 @@ scikit-learn = "*"
 tqdm = "*"
 typer = "*"
 "mlops_model" ={editable = true, path = "."}
-pycaret = "*"
 ydata-profiling = "*"
 requests = "*"
+hyperopt = "*"
+pycaret = {extras = ["tuners"], version = "*"}
+optuna = "*"
+ray = "*"
+scikit-optimize = "*"
 
 [requires]
 python_version = "3.11"
